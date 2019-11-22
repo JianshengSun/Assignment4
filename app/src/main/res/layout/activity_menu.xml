@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstActivity"
+    android:background="@color/backgroundColor">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Shop Location"
+        android:textColor="#3F51B5"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/BestBuy"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        app:srcCompat="@drawable/bb_logo"
+        android:onClick="onClickBB"/>
+
+    <ImageView
+        android:id="@+id/CanadaComputers"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        app:srcCompat="@drawable/cc_logo"
+        android:onClick="onClickCC"/>
+
+    <ImageView
+        android:id="@+id/spaceView"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        app:srcCompat="@color/backgroundColor" />
+
+    <ImageView
+        android:id="@+id/Apple"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/apple_logo"
+        android:onClick="onClickApple"/>
+
+</LinearLayout>
